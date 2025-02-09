@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  
+</head>
+<body>
+  <h1>Resume</h1>
+
+  <!-- Default Resume Information -->
+  <div class="section">
+    <h2>Personal Information</h2>
+    <p><strong>Name:</strong> <span id="name">Mudassir</span></p>
+    <p><strong>Age:</strong> <span id="age">23</span></p>
+    <p><strong>Email:</strong> <span id="email">mudassirmohd9022@gmail.com</span></p>
+  </div>
+
+  <div class="section">
+    <h2>Professional Summary</h2>
+    <p id="summary">Experienced full-stack developer with a strong focus on frontend technologies and user experience.</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <ul id="skills">
+      <li>JavaScript</li>
+      <li>HTML & CSS</li>
+      <li>React.js</li>
+    </ul>
+  </div>
+
+  <!-- Buttons for Reading and Updating Values -->
+  <button onclick="readValues()">Read Values</button>
+  <button onclick="updateValuesWithInnerText()">Update with innerText</button>
+  <button onclick="updateValuesWithInnerHTML()">Update with innerHTML</button>
+</body>
+</html>

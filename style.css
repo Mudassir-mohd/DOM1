@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+.section {
+  margin-bottom: 20px;
+}
+button {
+  margin: 10px 5px;
+}
